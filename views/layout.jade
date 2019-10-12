@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    ol
+     li premier
+     li deuxieme
+    input(type="text").nom_de_la_class#nom_du_id
+    if condition
+     p condition est vérifiée
+    -var tab=['lounis', 'khadir', 'izem', 'argaz']
+    each value in tab
+     p=value
+    block content
+      
